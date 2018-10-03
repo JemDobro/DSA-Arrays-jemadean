@@ -1,0 +1,9 @@
+Length, capacity, memory address of:
+arr.push(3): Array { length: 1, _capacity: 3, ptr: 0 }
+after adding
+  arr.push(5);
+  arr.push(15);
+  arr.push(19);
+  arr.push(45);
+  arr.push(10);
+    : Array { length: 6, _capacity: 12, ptr: 3 }
